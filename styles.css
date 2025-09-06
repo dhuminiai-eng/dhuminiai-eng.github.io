@@ -1,7 +1,7 @@
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;color:#1f2937;background:#ffffff}
 .container{max-width:1080px;margin:0 auto;padding:16px}
 header{display:flex;align-items:center;justify-content:space-between}
-.logo{border-radius:16px}
+.logo{border-radius:16px;width:48px;height:48px}
 nav a{margin-left:14px;color:#374151;text-decoration:none;font-weight:500}
 .hero{display:flex;align-items:center;min-height:48vh}
 .hero-text{max-width:760px}
