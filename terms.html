@@ -1,24 +1,576 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Terms of Use — Dhumini AI</title>
-  <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Dhumin AI Learning Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #e9ecef;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+        
+        .last-updated {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #1976d2;
+            font-weight: 500;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        .section h3 {
+            color: #34495e;
+            font-size: 1.4rem;
+            margin: 25px 0 15px 0;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .section ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        .section li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .success-box {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .contact-info {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .contact-info h3 {
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .subscription-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        .subscription-table th,
+        .subscription-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .subscription-table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+        
+        .subscription-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        .prohibited-list {
+            background-color: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .prohibited-list h4 {
+            color: #721c24;
+            margin-bottom: 15px;
+        }
+        
+        .prohibited-list ul {
+            color: #721c24;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header class="container">
-    <a href="/" class="brand">Dhumini AI</a>
-  </header>
-  <main class="container content-page">
-    <h1>Terms of Use</h1>
-    <p>By using this website, you agree to our terms. Content is provided for educational purposes. We aim for accuracy but do not guarantee it. Use at your discretion.</p>
-    <h3>Contact</h3>
-    <p>Email: <a href="mailto:contact@dhuminiai.com">contact@dhuminiai.com</a></p>
-  </main>
-  <footer class="container footer">
-    <p>© <span id="year"></span> Dhumini AI.</p>
-  </footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+    <div class="container">
+        <div class="header">
+            <h1>Terms of Service</h1>
+            <p>Dhumin AI Learning Solutions - Terms and Conditions</p>
+        </div>
+        
+        <div class="last-updated">
+            <strong>Last Updated:</strong> December 2024
+        </div>
+        
+        <div class="section">
+            <h2>1. Acceptance of Terms</h2>
+            <p>Welcome to Dhumin AI Learning Solutions ("we," "our," or "us"). These Terms of Service ("Terms") govern your use of our mobile application and related services (collectively, the "Service"). By accessing or using our Service, you agree to be bound by these Terms.</p>
+            
+            <div class="highlight-box">
+                <strong>Important:</strong> Please read these Terms carefully before using our Service. If you do not agree to these Terms, you may not access or use our Service.
+            </div>
+            
+            <p>We reserve the right to modify these Terms at any time. We will notify you of any material changes by posting the new Terms in the app or by other means of communication. Your continued use of the Service after such modifications constitutes acceptance of the updated Terms.</p>
+        </div>
+        
+        <div class="section">
+            <h2>2. Description of Service</h2>
+            <p>Dhumin AI Learning Solutions is an educational platform designed to help students prepare for Tamil Nadu Public Service Commission (TNPSC) examinations. Our Service includes:</p>
+            
+            <h3>2.1 Core Features</h3>
+            <ul>
+                <li><strong>Test Management:</strong> Access to practice tests for G1, G2, and G4 exam groups</li>
+                <li><strong>Study Materials:</strong> Comprehensive syllabus coverage and learning content</li>
+                <li><strong>Progress Tracking:</strong> Detailed analytics and performance reports</li>
+                <li><strong>Subscription Plans:</strong> FREE, PLUS, and PRO tiers with varying features</li>
+                <li><strong>Batch Enrollment:</strong> Join structured test batches with scheduled tests</li>
+            </ul>
+            
+            <h3>2.2 Educational Content</h3>
+            <ul>
+                <li>General Tamil (GT) practice questions</li>
+                <li>General Studies (GS) comprehensive coverage</li>
+                <li>Mathematics (MA) problem-solving exercises</li>
+                <li>Mock tests simulating real exam conditions</li>
+                <li>Detailed explanations and learning resources</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>3. User Accounts and Registration</h2>
+            
+            <h3>3.1 Account Creation</h3>
+            <p>To use our Service, you must create an account by providing accurate and complete information. You are responsible for:</p>
+            <ul>
+                <li>Maintaining the confidentiality of your account credentials</li>
+                <li>All activities that occur under your account</li>
+                <li>Notifying us immediately of any unauthorized use</li>
+                <li>Ensuring your contact information remains current</li>
+            </ul>
+            
+            <h3>3.2 Account Requirements</h3>
+            <ul>
+                <li>You must be at least 13 years old to create an account</li>
+                <li>Users under 18 should have parental consent</li>
+                <li>One account per person; multiple accounts are prohibited</li>
+                <li>Accurate and truthful information must be provided</li>
+            </ul>
+            
+            <h3>3.3 Account Security</h3>
+            <p>You are responsible for maintaining the security of your account. We recommend:</p>
+            <ul>
+                <li>Using strong, unique passwords</li>
+                <li>Enabling two-factor authentication when available</li>
+                <li>Logging out from shared devices</li>
+                <li>Reporting suspicious activity immediately</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>4. Subscription Plans and Payment</h2>
+            
+            <h3>4.1 Available Plans</h3>
+            <table class="subscription-table">
+                <thead>
+                    <tr>
+                        <th>Plan</th>
+                        <th>Features</th>
+                        <th>Pricing</th>
+                        <th>Billing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>FREE</strong></td>
+                        <td>Basic tests, limited features, ads displayed</td>
+                        <td>₹0</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PLUS</strong></td>
+                        <td>Extended test access, priority support, no ads</td>
+                        <td>₹299/month</td>
+                        <td>Monthly, 3-month, 6-month, 1-year</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PRO</strong></td>
+                        <td>Full access, all features, premium content, no ads</td>
+                        <td>₹599/month</td>
+                        <td>Monthly, 3-month, 6-month, 1-year</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h3>4.2 Payment Terms</h3>
+            <ul>
+                <li><strong>Payment Methods:</strong> Credit/debit cards, UPI, net banking through Razorpay</li>
+                <li><strong>Billing Cycle:</strong> Subscriptions renew automatically unless cancelled</li>
+                <li><strong>Pricing:</strong> All prices are in Indian Rupees (INR) and include applicable taxes</li>
+                <li><strong>Refunds:</strong> Refund policy as per our refund terms (see Section 8)</li>
+            </ul>
+            
+            <h3>4.3 Trial Periods</h3>
+            <p>We may offer trial periods for paid plans:</p>
+            <ul>
+                <li>PLUS plan: 7-day free trial</li>
+                <li>PRO plan: 14-day free trial</li>
+                <li>One trial per user per plan</li>
+                <li>Automatic conversion to paid subscription after trial</li>
+            </ul>
+            
+            <div class="warning-box">
+                <strong>Important:</strong> You will be charged automatically at the end of your trial period unless you cancel before the trial expires.
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>5. Test Batches and Enrollment</h2>
+            
+            <h3>5.1 Batch Enrollment</h3>
+            <p>Our test batches provide structured preparation with scheduled tests:</p>
+            <ul>
+                <li><strong>Enrollment Process:</strong> Select batch, complete payment, gain access</li>
+                <li><strong>Seat Management:</strong> Limited seats available on first-come, first-served basis</li>
+                <li><strong>Access Duration:</strong> Access valid for the entire batch duration</li>
+                <li><strong>Auto-Upgrade:</strong> Batch enrollment automatically upgrades to PRO plan</li>
+            </ul>
+            
+            <h3>5.2 Test Conduct</h3>
+            <ul>
+                <li><strong>Test Schedule:</strong> Tests are conducted as per published schedule</li>
+                <li><strong>Duration:</strong> Each test has a specific time limit</li>
+                <li><strong>Attempts:</strong> One attempt per test unless specified otherwise</li>
+                <li><strong>Results:</strong> Immediate results with detailed explanations</li>
+            </ul>
+            
+            <h3>5.3 Batch Policies</h3>
+            <ul>
+                <li>No refunds for completed or partially completed batches</li>
+                <li>Transfer between batches not permitted</li>
+                <li>Late enrollment may result in missed tests</li>
+                <li>Batch access expires at the end of the batch period</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>6. User Conduct and Prohibited Activities</h2>
+            
+            <h3>6.1 Acceptable Use</h3>
+            <p>You agree to use our Service only for lawful purposes and in accordance with these Terms. You may use our Service to:</p>
+            <ul>
+                <li>Prepare for TNPSC examinations</li>
+                <li>Access educational content and practice tests</li>
+                <li>Track your learning progress</li>
+                <li>Participate in legitimate educational activities</li>
+            </ul>
+            
+            <h3>6.2 Prohibited Activities</h3>
+            <div class="prohibited-list">
+                <h4>You are strictly prohibited from:</h4>
+                <ul>
+                    <li>Sharing your account credentials with others</li>
+                    <li>Attempting to hack, reverse engineer, or compromise our systems</li>
+                    <li>Using automated tools to access the Service</li>
+                    <li>Distributing test questions or answers to third parties</li>
+                    <li>Creating multiple accounts to circumvent restrictions</li>
+                    <li>Engaging in any form of cheating during tests</li>
+                    <li>Uploading malicious code or harmful content</li>
+                    <li>Violating any applicable laws or regulations</li>
+                    <li>Impersonating other users or entities</li>
+                    <li>Spamming or sending unsolicited communications</li>
+                </ul>
+            </div>
+            
+            <h3>6.3 Consequences of Violations</h3>
+            <p>Violation of these Terms may result in:</p>
+            <ul>
+                <li>Immediate suspension or termination of your account</li>
+                <li>Loss of access to paid content without refund</li>
+                <li>Legal action if applicable</li>
+                <li>Reporting to relevant authorities if required</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>7. Intellectual Property Rights</h2>
+            
+            <h3>7.1 Our Content</h3>
+            <p>All content on our Service, including but not limited to:</p>
+            <ul>
+                <li>Test questions and answers</li>
+                <li>Educational materials and explanations</li>
+                <li>Software, algorithms, and technical components</li>
+                <li>Logos, trademarks, and branding</li>
+                <li>User interface and design elements</li>
+            </ul>
+            <p>is owned by us or our licensors and is protected by copyright, trademark, and other intellectual property laws.</p>
+            
+            <h3>7.2 License to Use</h3>
+            <p>We grant you a limited, non-exclusive, non-transferable license to:</p>
+            <ul>
+                <li>Access and use our Service for personal educational purposes</li>
+                <li>View and interact with content as intended</li>
+                <li>Download materials for offline study (where permitted)</li>
+            </ul>
+            
+            <h3>7.3 Restrictions</h3>
+            <p>You may not:</p>
+            <ul>
+                <li>Copy, modify, or distribute our content</li>
+                <li>Reverse engineer or attempt to extract source code</li>
+                <li>Use our content for commercial purposes</li>
+                <li>Remove copyright or proprietary notices</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>8. Refund and Cancellation Policy</h2>
+            
+            <h3>8.1 Subscription Cancellation</h3>
+            <p>You may cancel your subscription at any time:</p>
+            <ul>
+                <li><strong>Before Trial Ends:</strong> Cancel anytime during trial period</li>
+                <li><strong>After Trial:</strong> Cancel before next billing cycle</li>
+                <li><strong>Method:</strong> Cancel through app settings or contact support</li>
+                <li><strong>Effect:</strong> Access continues until current period ends</li>
+            </ul>
+            
+            <h3>8.2 Refund Policy</h3>
+            <ul>
+                <li><strong>Subscription Refunds:</strong> No refunds for partial periods</li>
+                <li><strong>Batch Refunds:</strong> No refunds after batch starts</li>
+                <li><strong>Technical Issues:</strong> Refunds considered on case-by-case basis</li>
+                <li><strong>Processing Time:</strong> 5-7 business days for approved refunds</li>
+            </ul>
+            
+            <h3>8.3 Special Circumstances</h3>
+            <p>Refunds may be considered in exceptional circumstances:</p>
+            <ul>
+                <li>Technical failures preventing service access</li>
+                <li>Duplicate payments due to system errors</li>
+                <li>Unauthorized charges</li>
+                <li>Service discontinuation</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>9. Privacy and Data Protection</h2>
+            <p>Your privacy is important to us. Our collection, use, and protection of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference.</p>
+            
+            <div class="highlight-box">
+                <strong>Key Points:</strong> We collect only necessary information, use it for service provision, and implement appropriate security measures. You have rights regarding your data as outlined in our Privacy Policy.
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>10. Disclaimers and Limitations of Liability</h2>
+            
+            <h3>10.1 Service Availability</h3>
+            <p>We strive to provide continuous service availability, but we cannot guarantee:</p>
+            <ul>
+                <li>Uninterrupted access to our Service</li>
+                <li>Error-free operation of all features</li>
+                <li>Compatibility with all devices or operating systems</li>
+                <li>Immediate resolution of technical issues</li>
+            </ul>
+            
+            <h3>10.2 Educational Content</h3>
+            <p>While we strive for accuracy, we cannot guarantee:</p>
+            <ul>
+                <li>Complete accuracy of all test questions</li>
+                <li>Alignment with official TNPSC syllabus changes</li>
+                <li>Success in actual examinations</li>
+                <li>Completeness of study materials</li>
+            </ul>
+            
+            <h3>10.3 Limitation of Liability</h3>
+            <p>To the maximum extent permitted by law, we shall not be liable for:</p>
+            <ul>
+                <li>Indirect, incidental, or consequential damages</li>
+                <li>Loss of profits, data, or business opportunities</li>
+                <li>Damages resulting from service interruptions</li>
+                <li>Third-party actions or content</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>11. Termination</h2>
+            
+            <h3>11.1 Termination by You</h3>
+            <p>You may terminate your account at any time by:</p>
+            <ul>
+                <li>Deleting your account through app settings</li>
+                <li>Contacting our support team</li>
+                <li>Uninstalling the app (account remains active)</li>
+            </ul>
+            
+            <h3>11.2 Termination by Us</h3>
+            <p>We may terminate or suspend your account if:</p>
+            <ul>
+                <li>You violate these Terms</li>
+                <li>You engage in fraudulent activities</li>
+                <li>Your account remains inactive for extended periods</li>
+                <li>Required by law or regulation</li>
+            </ul>
+            
+            <h3>11.3 Effect of Termination</h3>
+            <p>Upon termination:</p>
+            <ul>
+                <li>Your access to the Service will cease</li>
+                <li>Your data may be deleted after a grace period</li>
+                <li>Outstanding payments remain due</li>
+                <li>Certain provisions of these Terms survive termination</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>12. Governing Law and Dispute Resolution</h2>
+            
+            <h3>12.1 Governing Law</h3>
+            <p>These Terms are governed by the laws of India. Any disputes arising from these Terms or your use of our Service will be subject to the exclusive jurisdiction of the courts in Chennai, Tamil Nadu.</p>
+            
+            <h3>12.2 Dispute Resolution</h3>
+            <p>Before pursuing legal action, we encourage you to:</p>
+            <ul>
+                <li>Contact our support team to resolve issues</li>
+                <li>Attempt informal resolution through communication</li>
+                <li>Consider mediation or arbitration if appropriate</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>13. General Provisions</h2>
+            
+            <h3>13.1 Entire Agreement</h3>
+            <p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding the use of our Service.</p>
+            
+            <h3>13.2 Severability</h3>
+            <p>If any provision of these Terms is found to be unenforceable, the remaining provisions will remain in full force and effect.</p>
+            
+            <h3>13.3 Waiver</h3>
+            <p>Our failure to enforce any provision of these Terms does not constitute a waiver of that provision or any other provision.</p>
+            
+            <h3>13.4 Assignment</h3>
+            <p>You may not assign or transfer your rights or obligations under these Terms without our prior written consent. We may assign these Terms without restriction.</p>
+        </div>
+        
+        <div class="section">
+            <h2>14. Contact Information</h2>
+            <p>If you have any questions about these Terms, please contact us:</p>
+            
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><strong>Email:</strong> <a href="mailto:support@tnpsctesthub.com">support@tnpsctesthub.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+91-XXXXXXXXXX">+91-XXXXXXXXXX</a></p>
+                <p><strong>Address:</strong> Dhumin AI Learning Solutions, Chennai, Tamil Nadu, India</p>
+                <p><strong>Business Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM IST</p>
+                <p><strong>Legal Inquiries:</strong> <a href="mailto:legal@tnpsctesthub.com">legal@tnpsctesthub.com</a></p>
+            </div>
+        </div>
+        
+        <div class="success-box">
+            <strong>Thank you for choosing Dhumin AI Learning Solutions!</strong> We're committed to providing you with the best possible educational experience. If you have any questions or need assistance, please don't hesitate to contact our support team.
+        </div>
+    </div>
 </body>
 </html>
